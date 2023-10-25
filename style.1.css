@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Send+Flowers&family=Source+Serif+Pro:ital,wght@0,400;0,600;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.landing_page {
+    height: 740px;
+    width: 100%;
+    background-image: url(./images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* nav bar */
+
+.navbar-brand span {
+    color: orange;
+    font-size: 3rem;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.travel_quotes p {
+    font-size: 4em;
+    font-weight: 800;
+    color: white;
+
+}
+
+.travel_quotes span {
+    font-family: 'Send Flowers', cursive;
+
+}
+
+/* main section */
+
+/* honeymoon packages */
+
+.honeymoon h1 {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.honeymoon .package1 {
+    text-align: center;
+
+}
+
+.honeymoon .package1 p {
+    text-align: justify;
+}
+
+.honeymoon .package1 h6 {
+    color: red;
+}
+
+.honeymoon .package1 img {
+    width: 100%;
+    height: 13em;
+}
+
+.card {
+    padding: 2rem 2rem 0rem 2rem;
+
+}
+
+.card:hover {
+    box-shadow: rgb(16, 15, 15) 0px 2px 4px 0px, white 0px 2px 16px 0px;
+}
+
+.honeymoon .package1 .btn:hover {
+    background-color: blue;
+    box-shadow: rgb(16, 15, 15) 0px 2px 4px 0px, white 0px 2px 16px 0px;
+
+}
+
+.explore-more {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.explore-more button {
+    background-color: mediumblue;
+    border-radius: 2rem;
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    color: white;
+}
+
+.explore-more button:hover {
+    background-color: red;
+    box-shadow: rgb(16, 15, 15) 0px 2px 4px 0px, white 0px 2px 16px 0px;
+
+}
+
+/* special kerala tour tours  */
+
+.kerala-tour h1 {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.carousel-item img {
+    height: 300px;
+    width: 100%;
+}
+
+/* .carousel-caption{
+    margin-bottom: 12em;
+    margin-right: 35em;
+} */
+.carousel-caption h1 {
+    color: blue;
+    font-weight: 900;
+    -webkit-text-stroke: 2px white;
+}
+
+.video-section .youtube-video iframe {
+    width: 100%;
+    height: 23rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.video-section img {
+    width: 90%;
+    height: 22rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+
+}
+
+/* north indian trip */
+
+.north-indian h1 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.image {
+    position: relative;
+    border: gray 1px solid;
+    border-radius: 1.5rem;
+    padding: 1rem;
+}
+
+.image__img {
+    display: block;
+    width: 90%;
+    height: 15rem;
+    border-radius: 1rem;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    top: 1rem;
+    height: 15rem;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-radius: 1rem;
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary {
+    background: #2dc3a5;
+}
+
+.image__overlay>* {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: .9;
+}
+
+.image__overlay:hover>* {
+    transform: translateY(0);
+}
+
+.image__title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image__description {
+    text-align: center;
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+
+.image__description button {
+    border-radius: 1rem;
+    background-color: rgb(239, 9, 24);
+    color: white;
+    border: none;
+    height: 2rem;
+    width: 9rem;
+}
+
+.image__description SPAN {
+    color: black;
+}
+
+.image__description P {
+    color: blue;
+    font-weight: BOLD;
+}
+
+/* our service section */
+
+
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.services {
+    text-align: center;
+}
+
+.services p {
+    font-size: 1.3em;
+    font-family: 'Send Flowers', cursive;
+    color: red;
+}
+
+.services .card {
+    width: 80%;
+    box-shadow: none;
+    border-radius: 3rem;
+
+}
+
+
+.text {
+    font-size: 20px;
+    color: #383737ba;
+    font-weight: 500
+}
+
+.circle1 {
+    background-color: #faefd1
+}
+
+.circle2 {
+    background-color: #F3E5F5
+}
+
+.circle3 {
+    background-color: #e5fae9
+}
+
+.about {
+    font-size: 14px;
+    font-weight: 35px;
+    color: #697087
+}
+
+.learnmore1 {
+    font-size: 18px;
+    font-weight: 50px;
+    color: #5702f4
+}
+
+.learnmore2 {
+    font-size: 18px;
+    font-weight: 50px;
+    color: #fd9790
+}
+
+.learnmore3 {
+    font-size: 18px;
+    font-weight: 50px;
+    color: #4DB6AC
+}
+
+.circle1 .fa-chrome {
+    color: #fec734;
+    font-size: 40px
+}
+
+.circle2 .fa-chrome {
+    color: #fd9790;
+    font-size: 40px
+}
+
+.circle3 .fa-chrome {
+    color: #42a593;
+    font-size: 40px
+}
+
+/* testimonial section */
+
+.testimonial .customer {
+    font-family: 'Send Flowers', cursive;
+    font-size: 1.5em;
+    color: blue;
+    font-weight: bold;
+
+}
+
+.testimonial-content {
+    width: 60%;
+}
+
+.testimonial-content h5 {
+    text-align: center;
+
+}
+
+.testimonial-content p {
+    text-align: justify;
+}
+
+/* footer section */
+.footer-main {
+    background-color:#0F254E;
+    color: white;
+    padding-top: 2rem;
+}
+.footer-main .about h5{
+    margin-left: 14%;
+    color: darkorange;
+    
+}
+
+.footer-main .about ul a{
+    text-decoration: none;
+    list-style: none;
+    
+}
+.footer-main .about ul li{
+    margin-top: 0.7em;
+    color: white;
+    font-size: larger;
+}
+.footer-main .about ul li:hover{
+    text-decoration: underline red;
+
+}
+.footer-main .about{
+    margin-left: 20%;
+}
+
+.footer-image img{
+    
+    width: 40%;
+
+}
+.footer-main .social-media h5{
+    color: darkorange;
+}
+.footer-main .social-media i{
+    padding-left: 1em;
+    color: white;
+}
+.footer-main .social-media i:hover{
+    color: red;
+}
